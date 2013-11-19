@@ -3,7 +3,7 @@
         <modelVersion>4.0.0</modelVersion>
         <groupId>org.jdelaunay</groupId>
         <artifactId>jdelaunay</artifactId>
-        <version>0.5.1-SNAPSHOT</version>
+        <version>0.5.2</version>
         <name>jdelaunay</name>
         <properties>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,10 +41,10 @@
                 </plugins>
                 <extensions>
                         <extension>
-                                <groupId>org.apache.maven.wagon</groupId> 
-                                <artifactId>wagon-ssh</artifactId> 
-                                <version>2.2</version> 
-                        </extension> 
+                                <groupId>org.apache.maven.wagon</groupId>
+                                <artifactId>wagon-ssh</artifactId>
+                                <version>2.2</version>
+                        </extension>
                 </extensions>
         </build>
         <repositories>
